@@ -14,5 +14,11 @@
                     ],
                     "postExec" : "dotnet --version"
                 }
-            ]
+            ],
+    "questions" : [
+        {
+            "text" : "What namespace would you like for the project?",
+            "store" : "namespace"
+        }
+    ]
 }
